@@ -3,6 +3,7 @@ import { ClerkProvider } from '@clerk/nextjs'
 import type { Metadata } from 'next'
 
 import { ModalProvider } from '@/providers/modal-provider'
+import { ToasterProvider } from '@/providers/toast-provider'
 
 import './globals.css'
 
@@ -22,6 +23,7 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="en" className='h-full'>
         <body className={`${inter.className} h-full`}>
+          <ToasterProvider />
           <ModalProvider />
           {children}
         </body>
