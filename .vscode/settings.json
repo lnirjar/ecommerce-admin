@@ -1,11 +1,11 @@
 {
-    "editor.minimap.enabled": false,
-    "files.associations": {
-        "*.css": "tailwindcss"
-    },
-    "editor.quickSuggestions": {
-        "strings": "on"
-    },
-    "editor.tabSize": 2,
-    "editor.detectIndentation": false
+  "editor.minimap.enabled": false,
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false
 }
