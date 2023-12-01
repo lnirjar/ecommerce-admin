@@ -18,7 +18,8 @@ import {
   FormControl,
   FormField,
   FormItem,
-  FormLabel
+  FormLabel,
+  FormMessage
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { AlertModal } from "@/components/modals/alert-modal";
@@ -134,7 +135,7 @@ export const BillboardForm: React.FC<BillboardFormProps> = ({
                     onRemove={() => field.onChange("")}
                   />
                 </FormControl>
-                <FormItem />
+                <FormMessage />
               </FormItem>
             )}
           />
@@ -152,7 +153,7 @@ export const BillboardForm: React.FC<BillboardFormProps> = ({
                       {...field}
                     />
                   </FormControl>
-                  <FormItem />
+                  <FormMessage />
                 </FormItem>
               )}
             />
